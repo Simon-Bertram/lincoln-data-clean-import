@@ -1,0 +1,524 @@
+2025-06-18 17:17:28,123 - DataImporter - ERROR - Error creating database schema: column "family_name" does not exist
+
+2025-06-18 17:17:28,123 - DataImporter - ERROR - Import process failed: column "family_name" does not exist
+
+2025-06-18 17:19:26,739 - DataImporter - INFO - Database schema created successfully
+2025-06-18 17:19:26,740 - DataImporter - INFO - Processing file: data\Most_Data.csv
+2025-06-18 17:19:26,868 - DataImporter - ERROR - Error processing file data\Most_Data.csv: 'arrival_at_lincoln'
+2025-06-18 17:19:26,868 - DataImporter - ERROR - Failed to process data\Most_Data.csv: 'arrival_at_lincoln'
+2025-06-18 17:19:26,870 - DataImporter - INFO - Processing file: data\Reworked_Data.csv
+2025-06-18 17:19:26,897 - DataImporter - ERROR - Error processing file data\Reworked_Data.csv: 'arrival_at_lincoln'
+2025-06-18 17:19:26,898 - DataImporter - ERROR - Failed to process data\Reworked_Data.csv: 'arrival_at_lincoln'
+2025-06-18 17:19:26,901 - DataImporter - INFO - Processing file: data\UTF-8Partial_Data.csv
+2025-06-18 17:19:26,922 - DataImporter - ERROR - Error processing file data\UTF-8Partial_Data.csv: 'arrival_at_lincoln'
+2025-06-18 17:19:26,928 - DataImporter - ERROR - Failed to process data\UTF-8Partial_Data.csv: 'arrival_at_lincoln'
+2025-06-18 17:24:19,546 - DataImporter - INFO - Database schema created successfully
+2025-06-18 17:24:19,547 - DataImporter - INFO - Processing file: data\Most_Data.csv
+2025-06-18 17:24:19,614 - DataImporter - ERROR - Missing required columns: {'band', 'english_given_name', 'relevant_links', 'agency', 'arrival_at_lincoln', 'cemetery_burial', 'departure_from_lincoln', 'comments', 'alias', 'source', 'census_record_1900', 'year_of_birth', 'sex', 'family_name', 'trade', 'indian_name', 'nation', 'cause_of_death'}
+2025-06-18 17:24:19,615 - DataImporter - ERROR - Error processing file data\Most_Data.csv: Missing required columns: {'band', 'english_given_name', 'relevant_links', 'agency', 'arrival_at_lincoln', 'cemetery_burial', 'departure_from_lincoln', 'comments', 'alias', 'source', 'census_record_1900', 'year_of_birth', 'sex', 'family_name', 'trade', 'indian_name', 'nation', 'cause_of_death'}
+2025-06-18 17:24:19,616 - DataImporter - ERROR - Failed to process data\Most_Data.csv: Missing required columns: {'band', 'english_given_name', 'relevant_links', 'agency', 'arrival_at_lincoln', 'cemetery_burial', 'departure_from_lincoln', 'comments', 'alias', 'source', 'census_record_1900', 'year_of_birth', 'sex', 'family_name', 'trade', 'indian_name', 'nation', 'cause_of_death'}
+2025-06-18 17:24:19,617 - DataImporter - INFO - Processing file: data\Reworked_Data.csv
+2025-06-18 17:24:19,637 - DataImporter - ERROR - Missing required columns: {'band', 'english_given_name', 'relevant_links', 'agency', 'arrival_at_lincoln', 'cemetery_burial', 'departure_from_lincoln', 'comments', 'alias', 'source', 'census_record_1900', 'year_of_birth', 'sex', 'family_name', 'trade', 'indian_name', 'nation', 'cause_of_death'}
+2025-06-18 17:24:19,637 - DataImporter - ERROR - Error processing file data\Reworked_Data.csv: Missing required columns: {'band', 'english_given_name', 'relevant_links', 'agency', 'arrival_at_lincoln', 'cemetery_burial', 'departure_from_lincoln', 'comments', 'alias', 'source', 'census_record_1900', 'year_of_birth', 'sex', 'family_name', 'trade', 'indian_name', 'nation', 'cause_of_death'}
+2025-06-18 17:24:19,638 - DataImporter - ERROR - Failed to process data\Reworked_Data.csv: Missing required columns: {'band', 'english_given_name', 'relevant_links', 'agency', 'arrival_at_lincoln', 'cemetery_burial', 'departure_from_lincoln', 'comments', 'alias', 'source', 'census_record_1900', 'year_of_birth', 'sex', 'family_name', 'trade', 'indian_name', 'nation', 'cause_of_death'}
+2025-06-18 17:24:19,645 - DataImporter - INFO - Processing file: data\UTF-8Partial_Data.csv
+2025-06-18 17:24:19,700 - DataImporter - ERROR - Missing required columns: {'english_given_name', 'relevant_links', 'arrival_at_lincoln', 'cemetery_burial', 'departure_from_lincoln', 'cause_of_death', 'census_record_1900', 'year_of_birth', 'family_name', 'indian_name'}
+2025-06-18 17:24:19,703 - DataImporter - ERROR - Error processing file data\UTF-8Partial_Data.csv: Missing required columns: {'english_given_name', 'relevant_links', 'arrival_at_lincoln', 'cemetery_burial', 'departure_from_lincoln', 'cause_of_death', 'census_record_1900', 'year_of_birth', 'family_name', 'indian_name'}
+2025-06-18 17:24:19,705 - DataImporter - ERROR - Failed to process data\UTF-8Partial_Data.csv: Missing required columns: {'english_given_name', 'relevant_links', 'arrival_at_lincoln', 'cemetery_burial', 'departure_from_lincoln', 'cause_of_death', 'census_record_1900', 'year_of_birth', 'family_name', 'indian_name'}
+2025-06-18 17:25:59,600 - DataImporter - INFO - Database schema created successfully
+2025-06-18 17:25:59,601 - DataImporter - INFO - Processing file: data\Most_Data.csv
+2025-06-18 17:25:59,680 - DataImporter - ERROR - Missing required columns: {'Cause of Death'}
+2025-06-18 17:25:59,681 - DataImporter - ERROR - Error processing file data\Most_Data.csv: Missing required columns: {'Cause of Death'}
+2025-06-18 17:25:59,682 - DataImporter - ERROR - Failed to process data\Most_Data.csv: Missing required columns: {'Cause of Death'}
+2025-06-18 17:25:59,683 - DataImporter - INFO - Processing file: data\Reworked_Data.csv
+2025-06-18 17:25:59,702 - DataImporter - ERROR - Missing required columns: {'Agency', 'Band', 'Sex', 'Census Record 1900', 'Nation', 'Relevant Links', 'Departure from Lincoln', 'English given name', 'Alias', 'Source', 'Cause of Death', 'Comments', 'Indian Name', 'Year of birth', 'Family Name', 'Cemetery / Burial', 'Arrival at Lincoln', 'Trade'}
+2025-06-18 17:25:59,703 - DataImporter - ERROR - Error processing file data\Reworked_Data.csv: Missing required columns: {'Agency', 'Band', 'Sex', 'Census Record 1900', 'Nation', 'Relevant Links', 'Departure from Lincoln', 'English given name', 'Alias', 'Source', 'Cause of Death', 'Comments', 'Indian Name', 'Year of birth', 'Family Name', 'Cemetery / Burial', 'Arrival at Lincoln', 'Trade'}
+2025-06-18 17:25:59,703 - DataImporter - ERROR - Failed to process data\Reworked_Data.csv: Missing required columns: {'Agency', 'Band', 'Sex', 'Census Record 1900', 'Nation', 'Relevant Links', 'Departure from Lincoln', 'English given name', 'Alias', 'Source', 'Cause of Death', 'Comments', 'Indian Name', 'Year of birth', 'Family Name', 'Cemetery / Burial', 'Arrival at Lincoln', 'Trade'}
+2025-06-18 17:25:59,704 - DataImporter - INFO - Processing file: data\UTF-8Partial_Data.csv
+2025-06-18 17:25:59,717 - DataImporter - ERROR - Missing required columns: {'Agency', 'Band', 'Sex', 'Census Record 1900', 'Nation', 'Relevant Links', 'Departure from Lincoln', 'English given name', 'Alias', 'Source', 'Cause of Death', 'Comments', 'Indian Name', 'Year of birth', 'Family Name', 'Cemetery / Burial', 'Arrival at Lincoln', 'Trade'}
+2025-06-18 17:25:59,717 - DataImporter - ERROR - Error processing file data\UTF-8Partial_Data.csv: Missing required columns: {'Agency', 'Band', 'Sex', 'Census Record 1900', 'Nation', 'Relevant Links', 'Departure from Lincoln', 'English given name', 'Alias', 'Source', 'Cause of Death', 'Comments', 'Indian Name', 'Year of birth', 'Family Name', 'Cemetery / Burial', 'Arrival at Lincoln', 'Trade'}
+2025-06-18 17:25:59,718 - DataImporter - ERROR - Failed to process data\UTF-8Partial_Data.csv: Missing required columns: {'Agency', 'Band', 'Sex', 'Census Record 1900', 'Nation', 'Relevant Links', 'Departure from Lincoln', 'English given name', 'Alias', 'Source', 'Cause of Death', 'Comments', 'Indian Name', 'Year of birth', 'Family Name', 'Cemetery / Burial', 'Arrival at Lincoln', 'Trade'}
+2025-06-18 17:29:04,630 - DataImporter - INFO - Database schema created successfully
+2025-06-18 17:29:04,631 - DataImporter - INFO - Processing file: data\Most_Data.csv
+2025-06-18 17:29:04,714 - DataImporter - ERROR - Column 'census_record_1900' has incorrect type. Expected <class 'str'>, got <class 'str'>
+2025-06-18 17:29:04,715 - DataImporter - ERROR - Error processing file data\Most_Data.csv: Column 'census_record_1900' has incorrect type. Expected <class 'str'>, got <class 'str'>
+2025-06-18 17:29:04,716 - DataImporter - ERROR - Failed to process data\Most_Data.csv: Column 'census_record_1900' has incorrect type. Expected <class 'str'>, got <class 'str'>
+2025-06-18 17:29:04,717 - DataImporter - INFO - Processing file: data\Reworked_Data.csv
+2025-06-18 17:29:04,739 - DataImporter - ERROR - Missing required columns: {'Trade', 'Alias', 'Family Name', 'Cemetery / Burial', 'Indian Name', 'Comments', 'Year of birth', 'Source', 'English given name', 'Arrival at Lincoln', 'Departure from Lincoln', 'Relevant Links', 'Census Record 1900', 'Nation', 'Sex', 'Agency', 'Cause of Death', 'Band'}
+2025-06-18 17:29:04,739 - DataImporter - ERROR - Error processing file data\Reworked_Data.csv: Missing required columns: {'Trade', 'Alias', 'Family Name', 'Cemetery / Burial', 'Indian Name', 'Comments', 'Year of birth', 'Source', 'English given name', 'Arrival at Lincoln', 'Departure from Lincoln', 'Relevant Links', 'Census Record 1900', 'Nation', 'Sex', 'Agency', 'Cause of Death', 'Band'}
+2025-06-18 17:29:04,740 - DataImporter - ERROR - Failed to process data\Reworked_Data.csv: Missing required columns: {'Trade', 'Alias', 'Family Name', 'Cemetery / Burial', 'Indian Name', 'Comments', 'Year of birth', 'Source', 'English given name', 'Arrival at Lincoln', 'Departure from Lincoln', 'Relevant Links', 'Census Record 1900', 'Nation', 'Sex', 'Agency', 'Cause of Death', 'Band'}
+2025-06-18 17:29:04,740 - DataImporter - INFO - Processing file: data\UTF-8Partial_Data.csv
+2025-06-18 17:29:04,755 - DataImporter - ERROR - Missing required columns: {'Trade', 'Alias', 'Family Name', 'Cemetery / Burial', 'Indian Name', 'Comments', 'Year of birth', 'Source', 'English given name', 'Arrival at Lincoln', 'Departure from Lincoln', 'Relevant Links', 'Census Record 1900', 'Nation', 'Sex', 'Agency', 'Cause of Death', 'Band'}
+2025-06-18 17:29:04,755 - DataImporter - ERROR - Error processing file data\UTF-8Partial_Data.csv: Missing required columns: {'Trade', 'Alias', 'Family Name', 'Cemetery / Burial', 'Indian Name', 'Comments', 'Year of birth', 'Source', 'English given name', 'Arrival at Lincoln', 'Departure from Lincoln', 'Relevant Links', 'Census Record 1900', 'Nation', 'Sex', 'Agency', 'Cause of Death', 'Band'}
+2025-06-18 17:29:04,756 - DataImporter - ERROR - Failed to process data\UTF-8Partial_Data.csv: Missing required columns: {'Trade', 'Alias', 'Family Name', 'Cemetery / Burial', 'Indian Name', 'Comments', 'Year of birth', 'Source', 'English given name', 'Arrival at Lincoln', 'Departure from Lincoln', 'Relevant Links', 'Census Record 1900', 'Nation', 'Sex', 'Agency', 'Cause of Death', 'Band'}
+2025-06-18 17:37:51,923 - DataImporter - INFO - Database schema created successfully
+2025-06-18 17:37:51,926 - DataImporter - INFO - Processing file: data\Most_Data.csv
+2025-06-18 17:37:52,073 - DataImporter - ERROR - Column 'census_record_1900' has incorrect type. Expected <class 'str'>, got <class 'str'>
+2025-06-18 17:37:52,074 - DataImporter - ERROR - Error processing file data\Most_Data.csv: Column 'census_record_1900' has incorrect type. Expected <class 'str'>, got <class 'str'>
+2025-06-18 17:37:52,075 - DataImporter - ERROR - Failed to process data\Most_Data.csv: Column 'census_record_1900' has incorrect type. Expected <class 'str'>, got <class 'str'>
+2025-06-18 17:37:52,076 - DataImporter - INFO - Processing file: data\Reworked_Data.csv
+2025-06-18 17:37:52,096 - DataImporter - ERROR - Missing required columns: {'Year of birth', 'English given name', 'Family Name', 'Agency', 'Departure from Lincoln', 'Band', 'Trade', 'Cause of Death', 'Arrival at Lincoln', 'Alias', 'Nation', 'Comments', 'Indian Name', 'Census Record 1900', 'Relevant Links', 'Source', 'Cemetery / Burial', 'Sex'}
+2025-06-18 17:37:52,097 - DataImporter - ERROR - Error processing file data\Reworked_Data.csv: Missing required columns: {'Year of birth', 'English given name', 'Family Name', 'Agency', 'Departure from Lincoln', 'Band', 'Trade', 'Cause of Death', 'Arrival at Lincoln', 'Alias', 'Nation', 'Comments', 'Indian Name', 'Census Record 1900', 'Relevant Links', 'Source', 'Cemetery / Burial', 'Sex'}
+2025-06-18 17:37:52,097 - DataImporter - ERROR - Failed to process data\Reworked_Data.csv: Missing required columns: {'Year of birth', 'English given name', 'Family Name', 'Agency', 'Departure from Lincoln', 'Band', 'Trade', 'Cause of Death', 'Arrival at Lincoln', 'Alias', 'Nation', 'Comments', 'Indian Name', 'Census Record 1900', 'Relevant Links', 'Source', 'Cemetery / Burial', 'Sex'}
+2025-06-18 17:37:52,098 - DataImporter - INFO - Processing file: data\UTF-8Partial_Data.csv
+2025-06-18 17:37:52,134 - DataImporter - ERROR - Missing required columns: {'Year of birth', 'English given name', 'Family Name', 'Agency', 'Departure from Lincoln', 'Band', 'Trade', 'Cause of Death', 'Arrival at Lincoln', 'Alias', 'Nation', 'Comments', 'Indian Name', 'Census Record 1900', 'Relevant Links', 'Source', 'Cemetery / Burial', 'Sex'}
+2025-06-18 17:37:52,135 - DataImporter - ERROR - Error processing file data\UTF-8Partial_Data.csv: Missing required columns: {'Year of birth', 'English given name', 'Family Name', 'Agency', 'Departure from Lincoln', 'Band', 'Trade', 'Cause of Death', 'Arrival at Lincoln', 'Alias', 'Nation', 'Comments', 'Indian Name', 'Census Record 1900', 'Relevant Links', 'Source', 'Cemetery / Burial', 'Sex'}
+2025-06-18 17:37:52,136 - DataImporter - ERROR - Failed to process data\UTF-8Partial_Data.csv: Missing required columns: {'Year of birth', 'English given name', 'Family Name', 'Agency', 'Departure from Lincoln', 'Band', 'Trade', 'Cause of Death', 'Arrival at Lincoln', 'Alias', 'Nation', 'Comments', 'Indian Name', 'Census Record 1900', 'Relevant Links', 'Source', 'Cemetery / Burial', 'Sex'}
+2025-06-18 17:39:43,721 - DataImporter - INFO - Database schema created successfully
+2025-06-18 17:39:43,722 - DataImporter - INFO - Processing file: data\Most_Data.csv
+2025-06-18 17:39:43,795 - DataImporter - INFO - Validating and cleaning data from data\Most_Data.csv
+2025-06-18 17:39:43,802 - DataImporter - WARNING - Column 'census_record_1900' has type <class 'str'>, expected <class 'str'>. Attempting conversion.
+2025-06-18 17:39:43,806 - DataImporter - WARNING - Column 'indian_name' has type <class 'str'>, expected <class 'str'>. Attempting conversion.
+2025-06-18 17:39:43,809 - DataImporter - WARNING - Column 'family_name' has type <class 'str'>, expected <class 'str'>. Attempting conversion.
+2025-06-18 17:39:43,814 - DataImporter - WARNING - Column 'english_given_name' has type <class 'str'>, expected <class 'str'>. Attempting conversion.
+2025-06-18 17:39:43,819 - DataImporter - WARNING - Column 'alias' has type <class 'str'>, expected <class 'str'>. Attempting conversion.
+2025-06-18 17:39:43,822 - DataImporter - WARNING - Column 'sex' has type <class 'str'>, expected <class 'str'>. Attempting conversion.
+2025-06-18 17:39:43,823 - DataImporter - WARNING - Could not parse year: about 1890
+2025-06-18 17:39:43,824 - DataImporter - WARNING - Could not parse year: 1870 or 1871
+2025-06-18 17:39:43,824 - DataImporter - WARNING - Could not parse year: c. 1844
+2025-06-18 17:39:43,825 - DataImporter - WARNING - Could not parse year: about 1892
+2025-06-18 17:39:43,825 - DataImporter - WARNING - Could not parse year: 1876 or 1878
+2025-06-18 17:39:43,829 - DataImporter - WARNING - Could not parse year: about 1893
+2025-06-18 17:39:43,829 - DataImporter - WARNING - Could not parse year: about 1892
+2025-06-18 17:39:43,831 - DataImporter - WARNING - Could not parse year: about 1888
+2025-06-18 17:39:43,831 - DataImporter - WARNING - Could not parse year: 1874 or 1876
+2025-06-18 17:39:43,831 - DataImporter - WARNING - Could not parse year: c. 1876
+2025-06-18 17:39:43,832 - DataImporter - WARNING - Could not parse year: about 1883
+2025-06-18 17:39:43,832 - DataImporter - WARNING - Could not parse year: c. 1844
+2025-06-18 17:39:43,832 - DataImporter - WARNING - Could not parse year: about 1872
+2025-06-18 17:39:43,834 - DataImporter - WARNING - Could not parse year: about 1872
+2025-06-18 17:39:43,834 - DataImporter - WARNING - Could not parse year: c. 1844
+2025-06-18 17:39:43,835 - DataImporter - WARNING - Could not parse year: 1884-10-05
+2025-06-18 17:39:43,836 - DataImporter - WARNING - Could not parse year: about 1889
+2025-06-18 17:39:43,836 - DataImporter - WARNING - Could not parse year: c. 1859
+2025-06-18 17:39:43,836 - DataImporter - WARNING - Could not parse year: 1867/8
+2025-06-18 17:39:43,839 - DataImporter - WARNING - Column 'year_of_birth' has type <class 'numpy.float64'>, expected one of (<class 'int'>, <class 'float'>). Attempting conversion.
+2025-06-18 17:39:43,840 - DataImporter - ERROR - Failed to convert column 'year_of_birth' to <class 'int'>: Cannot convert non-finite values (NA or inf) to integer
+2025-06-18 17:39:43,840 - DataImporter - ERROR - Error validating and cleaning data from data\Most_Data.csv: Column 'year_of_birth' has incorrect type and cannot be converted
+2025-06-18 17:39:43,841 - DataImporter - ERROR - Error processing file data\Most_Data.csv: Column 'year_of_birth' has incorrect type and cannot be converted
+2025-06-18 17:39:43,841 - DataImporter - ERROR - Failed to process data\Most_Data.csv: Column 'year_of_birth' has incorrect type and cannot be converted
+2025-06-18 17:39:43,842 - DataImporter - INFO - Processing file: data\Reworked_Data.csv
+2025-06-18 17:39:43,864 - DataImporter - INFO - Validating and cleaning data from data\Reworked_Data.csv
+2025-06-18 17:39:43,866 - DataImporter - ERROR - Missing required columns: {'Band', 'Departure from Lincoln', 'Alias', 'Comments', 'English given name', 'Family Name', 'Sex', 'Nation', 'Agency', 'Source', 'Cause of Death', 'Cemetery / Burial', 'Census Record 1900', 'Trade', 'Year of birth', 'Arrival at Lincoln', 'Indian Name', 'Relevant Links'}
+2025-06-18 17:39:43,866 - DataImporter - ERROR - Error validating and cleaning data from data\Reworked_Data.csv: Missing required columns: {'Band', 'Departure from Lincoln', 'Alias', 'Comments', 'English given name', 'Family Name', 'Sex', 'Nation', 'Agency', 'Source', 'Cause of Death', 'Cemetery / Burial', 'Census Record 1900', 'Trade', 'Year of birth', 'Arrival at Lincoln', 'Indian Name', 'Relevant Links'}
+2025-06-18 17:39:43,867 - DataImporter - ERROR - Error processing file data\Reworked_Data.csv: Missing required columns: {'Band', 'Departure from Lincoln', 'Alias', 'Comments', 'English given name', 'Family Name', 'Sex', 'Nation', 'Agency', 'Source', 'Cause of Death', 'Cemetery / Burial', 'Census Record 1900', 'Trade', 'Year of birth', 'Arrival at Lincoln', 'Indian Name', 'Relevant Links'}
+2025-06-18 17:39:43,867 - DataImporter - ERROR - Failed to process data\Reworked_Data.csv: Missing required columns: {'Band', 'Departure from Lincoln', 'Alias', 'Comments', 'English given name', 'Family Name', 'Sex', 'Nation', 'Agency', 'Source', 'Cause of Death', 'Cemetery / Burial', 'Census Record 1900', 'Trade', 'Year of birth', 'Arrival at Lincoln', 'Indian Name', 'Relevant Links'}
+2025-06-18 17:39:43,868 - DataImporter - INFO - Processing file: data\UTF-8Partial_Data.csv
+2025-06-18 17:39:43,879 - DataImporter - INFO - Validating and cleaning data from data\UTF-8Partial_Data.csv
+2025-06-18 17:39:43,883 - DataImporter - WARNING - Column 'indian_name' has type <class 'str'>, expected <class 'str'>. Attempting conversion.
+2025-06-18 17:39:43,885 - DataImporter - WARNING - Column 'family_name' has type <class 'str'>, expected <class 'str'>. Attempting conversion.
+2025-06-18 17:39:43,888 - DataImporter - WARNING - Column 'english_given_name' has type <class 'str'>, expected <class 'str'>. Attempting conversion.
+2025-06-18 17:39:43,890 - DataImporter - WARNING - Column 'sex' has type <class 'str'>, expected <class 'str'>. Attempting conversion.
+2025-06-18 17:39:43,892 - DataImporter - WARNING - Column 'year_of_birth' has type <class 'numpy.int64'>, expected one of (<class 'int'>, <class 'float'>). Attempting conversion.
+2025-06-18 17:39:43,902 - DataImporter - WARNING - Column 'arrival_at_lincoln' has type <class 'pandas._libs.tslibs.timestamps.Timestamp'>, expected one of (<class 'str'>, <class 'pandas._libs.tslibs.timestamps.Timestamp'>). Attempting conversion.
+2025-06-18 17:39:43,907 - DataImporter - WARNING - Column 'nation' has type <class 'str'>, expected <class 'str'>. Attempting conversion.
+2025-06-18 17:39:43,909 - DataImporter - WARNING - Column 'band' has type <class 'str'>, expected <class 'str'>. Attempting conversion.
+2025-06-18 17:39:43,911 - DataImporter - WARNING - Column 'agency' has type <class 'str'>, expected <class 'str'>. Attempting conversion.
+2025-06-18 17:39:43,913 - DataImporter - WARNING - Column 'source' has type <class 'str'>, expected <class 'str'>. Attempting conversion.
+2025-06-18 17:39:43,916 - DataImporter - INFO - Successfully validated and cleaned data from data\UTF-8Partial_Data.csv
+2025-06-18 17:39:45,002 - DataImporter - INFO - Successfully imported 2 records
+2025-06-18 17:45:54,349 - DataImporter - INFO - Database schema created successfully
+2025-06-18 17:45:54,351 - DataImporter - INFO - Processing file: data\Most_Data.csv
+2025-06-18 17:45:54,661 - DataImporter - INFO - Validating and cleaning data from data\Most_Data.csv
+2025-06-18 17:45:54,694 - DataImporter - WARNING - Column 'census_record_1900' has type <class 'str'>, expected <class 'str'>. Attempting conversion.
+2025-06-18 17:45:54,704 - DataImporter - WARNING - Column 'indian_name' has type <class 'str'>, expected <class 'str'>. Attempting conversion.
+2025-06-18 17:45:54,709 - DataImporter - WARNING - Column 'family_name' has type <class 'str'>, expected <class 'str'>. Attempting conversion.
+2025-06-18 17:45:54,715 - DataImporter - WARNING - Column 'english_given_name' has type <class 'str'>, expected <class 'str'>. Attempting conversion.
+2025-06-18 17:45:54,750 - DataImporter - WARNING - Column 'alias' has type <class 'str'>, expected <class 'str'>. Attempting conversion.
+2025-06-18 17:45:54,767 - DataImporter - WARNING - Column 'sex' has type <class 'str'>, expected <class 'str'>. Attempting conversion.
+2025-06-18 17:45:54,776 - DataImporter - WARNING - Could not parse year: age 19
+2025-06-18 17:45:54,783 - DataImporter - WARNING - Could not parse year: age 20
+2025-06-18 17:45:54,784 - DataImporter - WARNING - Could not parse year: age 20
+2025-06-18 17:45:54,793 - DataImporter - WARNING - Could not parse year: age 9; 1874
+2025-06-18 17:45:54,799 - DataImporter - WARNING - Could not parse year: age 21
+2025-06-18 17:45:54,809 - DataImporter - WARNING - Could not parse year: age 8; 1883
+2025-06-18 17:45:54,818 - DataImporter - WARNING - Could not parse year: age 12; 1879
+2025-06-18 17:45:54,832 - DataImporter - WARNING - Error parsing year '1884-10-05': invalid literal for int() with base 10: '1884-10-05'
+2025-06-18 17:45:54,837 - DataImporter - WARNING - Could not parse year: 1884-10-05
+2025-06-18 17:45:54,839 - DataImporter - WARNING - Error parsing year '1888; age 20': invalid literal for int() with base 10: '1888; age 20'
+2025-06-18 17:45:54,840 - DataImporter - WARNING - Could not parse year: 1888; age 20
+2025-06-18 17:45:54,842 - DataImporter - WARNING - Error parsing year '1872 (age 19)': invalid literal for int() with base 10: '1872 (age 19)'
+2025-06-18 17:45:54,842 - DataImporter - WARNING - Could not parse year: 1872 (age 19)
+2025-06-18 17:45:54,843 - DataImporter - WARNING - Could not parse year: age 18
+2025-06-18 17:45:54,844 - DataImporter - WARNING - Could not parse year: age 21
+2025-06-18 17:45:54,846 - DataImporter - WARNING - Column 'year_of_birth' has type <class 'tuple'>, expected one of (<class 'int'>, <class 'float'>, <class 'pandas.core.arrays.integer.Int64Dtype'>). Attempting conversion.
+2025-06-18 17:45:54,847 - DataImporter - ERROR - Failed to convert column 'year_of_birth' to <class 'int'>: int() argument must be a string, a bytes-like object or a real number, not 'tuple'
+2025-06-18 17:45:54,852 - DataImporter - ERROR - Error validating and cleaning data from data\Most_Data.csv: Column 'year_of_birth' has incorrect type and cannot be converted
+2025-06-18 17:45:54,853 - DataImporter - ERROR - Error processing file data\Most_Data.csv: Column 'year_of_birth' has incorrect type and cannot be converted
+2025-06-18 17:45:54,853 - DataImporter - ERROR - Failed to process data\Most_Data.csv: Column 'year_of_birth' has incorrect type and cannot be converted
+2025-06-18 17:45:54,854 - DataImporter - INFO - Processing file: data\Reworked_Data.csv
+2025-06-18 17:45:54,883 - DataImporter - INFO - Validating and cleaning data from data\Reworked_Data.csv
+2025-06-18 17:45:54,884 - DataImporter - ERROR - Missing required columns: {'Alias', 'Nation', 'Sex', 'English given name', 'Census Record 1900', 'Year of birth', 'Source', 'Band', 'Cemetery / Burial', 'Arrival at Lincoln', 'Trade', 'Relevant Links', 'Indian Name', 'Departure from Lincoln', 'Comments', 'Agency', 'Cause of Death', 'Family Name'}
+2025-06-18 17:45:54,885 - DataImporter - ERROR - Error validating and cleaning data from data\Reworked_Data.csv: Missing required columns: {'Alias', 'Nation', 'Sex', 'English given name', 'Census Record 1900', 'Year of birth', 'Source', 'Band', 'Cemetery / Burial', 'Arrival at Lincoln', 'Trade', 'Relevant Links', 'Indian Name', 'Departure from Lincoln', 'Comments', 'Agency', 'Cause of Death', 'Family Name'}
+2025-06-18 17:45:54,886 - DataImporter - ERROR - Error processing file data\Reworked_Data.csv: Missing required columns: {'Alias', 'Nation', 'Sex', 'English given name', 'Census Record 1900', 'Year of birth', 'Source', 'Band', 'Cemetery / Burial', 'Arrival at Lincoln', 'Trade', 'Relevant Links', 'Indian Name', 'Departure from Lincoln', 'Comments', 'Agency', 'Cause of Death', 'Family Name'}
+2025-06-18 17:45:54,887 - DataImporter - ERROR - Failed to process data\Reworked_Data.csv: Missing required columns: {'Alias', 'Nation', 'Sex', 'English given name', 'Census Record 1900', 'Year of birth', 'Source', 'Band', 'Cemetery / Burial', 'Arrival at Lincoln', 'Trade', 'Relevant Links', 'Indian Name', 'Departure from Lincoln', 'Comments', 'Agency', 'Cause of Death', 'Family Name'}
+2025-06-18 17:45:54,891 - DataImporter - INFO - Processing file: data\UTF-8Partial_Data.csv
+2025-06-18 17:45:54,943 - DataImporter - INFO - Validating and cleaning data from data\UTF-8Partial_Data.csv
+2025-06-18 17:45:54,964 - DataImporter - WARNING - Column 'indian_name' has type <class 'str'>, expected <class 'str'>. Attempting conversion.
+2025-06-18 17:45:54,972 - DataImporter - WARNING - Column 'family_name' has type <class 'str'>, expected <class 'str'>. Attempting conversion.
+2025-06-18 17:45:54,990 - DataImporter - WARNING - Column 'english_given_name' has type <class 'str'>, expected <class 'str'>. Attempting conversion.
+2025-06-18 17:45:54,998 - DataImporter - WARNING - Column 'sex' has type <class 'str'>, expected <class 'str'>. Attempting conversion.
+2025-06-18 17:45:55,001 - DataImporter - WARNING - Column 'year_of_birth' has type <class 'tuple'>, expected one of (<class 'int'>, <class 'float'>, <class 'pandas.core.arrays.integer.Int64Dtype'>). Attempting conversion.
+2025-06-18 17:45:55,008 - DataImporter - ERROR - Failed to convert column 'year_of_birth' to <class 'int'>: int() argument must be a string, a bytes-like object or a real number, not 'tuple'
+2025-06-18 17:45:55,008 - DataImporter - ERROR - Error validating and cleaning data from data\UTF-8Partial_Data.csv: Column 'year_of_birth' has incorrect type and cannot be converted
+2025-06-18 17:45:55,010 - DataImporter - ERROR - Error processing file data\UTF-8Partial_Data.csv: Column 'year_of_birth' has incorrect type and cannot be converted
+2025-06-18 17:45:55,012 - DataImporter - ERROR - Failed to process data\UTF-8Partial_Data.csv: Column 'year_of_birth' has incorrect type and cannot be converted
+2025-06-18 17:49:33,487 - DataImporter - INFO - Database schema created successfully
+2025-06-18 17:49:33,488 - DataImporter - INFO - Processing file: data\Most_Data.csv
+2025-06-18 17:49:33,551 - DataImporter - INFO - Validating and cleaning data from data\Most_Data.csv
+2025-06-18 17:49:33,562 - DataImporter - INFO - Estimated birth year 1881 from age 19
+2025-06-18 17:49:33,563 - DataImporter - INFO - Estimated birth year 1880 from age 20
+2025-06-18 17:49:33,564 - DataImporter - INFO - Estimated birth year 1880 from age 20
+2025-06-18 17:49:33,566 - DataImporter - INFO - Estimated birth year 1879 from age 21
+2025-06-18 17:49:33,569 - DataImporter - INFO - Estimated birth year 1882 from age 18
+2025-06-18 17:49:33,570 - DataImporter - INFO - Estimated birth year 1879 from age 21
+2025-06-18 17:49:33,599 - DataImporter - INFO - Successfully validated and cleaned data from data\Most_Data.csv
+2025-06-18 17:49:33,604 - DataImporter - INFO - Data quality metrics for data\Most_Data.csv:
+2025-06-18 17:49:33,605 - DataImporter - INFO - Total rows: 835
+2025-06-18 17:49:33,605 - DataImporter - INFO - Null counts: {'census_record_1900': 716, 'indian_name': 437, 'family_name': 5, 'english_given_name': 35, 'alias': 808, 'sex': 7, 'year_of_birth': 22, 'arrival_at_lincoln': 835, 'departure_from_lincoln': 835, 'nation': 47, 'band': 403, 'agency': 173, 'trade': 777, 'source': 25, 'comments': 690, 'cause_of_death': 815, 'cemetery_burial': 815, 'relevant_links': 795}
+2025-06-18 17:49:33,606 - DataImporter - INFO - Parsed dates: {'year_of_birth': np.int64(813), 'arrival_at_lincoln': np.int64(0), 'departure_from_lincoln': np.int64(0)}
+2025-06-18 17:49:34,569 - DataImporter - ERROR - Error importing to database: column "year_of_birth_uncertain" of relation "students" does not exist
+LINE 5:                                 year_of_birth, year_of_birth...
+                                                       ^
+
+2025-06-18 17:49:34,569 - DataImporter - ERROR - Failed to process data\Most_Data.csv: column "year_of_birth_uncertain" of relation "students" does not exist
+LINE 5:                                 year_of_birth, year_of_birth...
+                                                       ^
+
+2025-06-18 17:49:34,572 - DataImporter - INFO - Processing file: data\Reworked_Data.csv
+2025-06-18 17:49:34,582 - DataImporter - INFO - Validating and cleaning data from data\Reworked_Data.csv
+2025-06-18 17:49:34,583 - DataImporter - ERROR - Missing required columns: {'Cause of Death', 'Relevant Links', 'Year of birth', 'Agency', 'Alias', 'Nation', 'Family Name', 'Trade', 'Indian Name', 'Source', 'Cemetery / Burial', 'Sex', 'Band', 'English given name', 'Departure from Lincoln', 'Census Record 1900', 'Arrival at Lincoln', 'Comments'}
+2025-06-18 17:49:34,584 - DataImporter - ERROR - Error validating and cleaning data from data\Reworked_Data.csv: Missing required columns: {'Cause of Death', 'Relevant Links', 'Year of birth', 'Agency', 'Alias', 'Nation', 'Family Name', 'Trade', 'Indian Name', 'Source', 'Cemetery / Burial', 'Sex', 'Band', 'English given name', 'Departure from Lincoln', 'Census Record 1900', 'Arrival at Lincoln', 'Comments'}
+2025-06-18 17:49:34,584 - DataImporter - ERROR - Error processing file data\Reworked_Data.csv: Missing required columns: {'Cause of Death', 'Relevant Links', 'Year of birth', 'Agency', 'Alias', 'Nation', 'Family Name', 'Trade', 'Indian Name', 'Source', 'Cemetery / Burial', 'Sex', 'Band', 'English given name', 'Departure from Lincoln', 'Census Record 1900', 'Arrival at Lincoln', 'Comments'}
+2025-06-18 17:49:34,585 - DataImporter - ERROR - Failed to process data\Reworked_Data.csv: Missing required columns: {'Cause of Death', 'Relevant Links', 'Year of birth', 'Agency', 'Alias', 'Nation', 'Family Name', 'Trade', 'Indian Name', 'Source', 'Cemetery / Burial', 'Sex', 'Band', 'English given name', 'Departure from Lincoln', 'Census Record 1900', 'Arrival at Lincoln', 'Comments'}
+2025-06-18 17:49:34,591 - DataImporter - INFO - Processing file: data\UTF-8Partial_Data.csv
+2025-06-18 17:49:34,598 - DataImporter - INFO - Validating and cleaning data from data\UTF-8Partial_Data.csv
+2025-06-18 17:49:34,606 - DataImporter - INFO - Successfully validated and cleaned data from data\UTF-8Partial_Data.csv
+2025-06-18 17:49:34,609 - DataImporter - INFO - Data quality metrics for data\UTF-8Partial_Data.csv:
+2025-06-18 17:49:34,610 - DataImporter - INFO - Total rows: 2
+2025-06-18 17:49:34,610 - DataImporter - INFO - Null counts: {'census_record_1900': 2, 'indian_name': 0, 'family_name': 0, 'english_given_name': 0, 'alias': 2, 'sex': 0, 'year_of_birth': 0, 'arrival_at_lincoln': 2, 'departure_from_lincoln': 2, 'nation': 0, 'band': 0, 'agency': 0, 'trade': 2, 'source': 0, 'comments': 2, 'cause_of_death': 2, 'cemetery_burial': 2, 'relevant_links': 2}
+2025-06-18 17:49:34,611 - DataImporter - INFO - Parsed dates: {'year_of_birth': np.int64(2), 'arrival_at_lincoln': np.int64(0), 'departure_from_lincoln': np.int64(0)}
+2025-06-18 17:49:35,558 - DataImporter - ERROR - Error importing to database: column "year_of_birth_uncertain" of relation "students" does not exist
+LINE 5:                                 year_of_birth, year_of_birth...
+                                                       ^
+
+2025-06-18 17:49:35,559 - DataImporter - ERROR - Failed to process data\UTF-8Partial_Data.csv: column "year_of_birth_uncertain" of relation "students" does not exist
+LINE 5:                                 year_of_birth, year_of_birth...
+                                                       ^
+
+2025-06-18 18:03:34,505 - DataImporter - INFO - Database schema recreated successfully
+2025-06-18 18:03:34,509 - DataImporter - INFO - Processing file: data\Most_Data.csv
+2025-06-18 18:03:34,781 - DataImporter - INFO - Successfully read file with delimiter: |
+2025-06-18 18:03:34,784 - DataImporter - INFO - Validating and cleaning data from data\Most_Data.csv
+2025-06-18 18:03:34,799 - DataImporter - INFO - Using column mapping format: spaced
+2025-06-18 18:03:34,800 - DataImporter - INFO - Found 18 matching columns
+2025-06-18 18:03:34,861 - DataImporter - INFO - Estimated birth year 1881 from age 19
+2025-06-18 18:03:34,870 - DataImporter - INFO - Estimated birth year 1880 from age 20
+2025-06-18 18:03:34,875 - DataImporter - INFO - Estimated birth year 1880 from age 20
+2025-06-18 18:03:34,881 - DataImporter - INFO - Estimated birth year 1879 from age 21
+2025-06-18 18:03:34,887 - DataImporter - INFO - Estimated birth year 1882 from age 18
+2025-06-18 18:03:34,890 - DataImporter - INFO - Estimated birth year 1879 from age 21
+2025-06-18 18:03:34,981 - DataImporter - INFO - Successfully validated and cleaned data from data\Most_Data.csv
+2025-06-18 18:03:34,992 - DataImporter - INFO - Data quality metrics for data\Most_Data.csv:
+2025-06-18 18:03:34,993 - DataImporter - INFO - Total rows: 835
+2025-06-18 18:03:34,994 - DataImporter - INFO - Null counts: {'census_record_1900': 716, 'indian_name': 437, 'family_name': 5, 'english_given_name': 35, 'alias': 808, 'sex': 7, 'year_of_birth': 22, 'arrival_at_lincoln': 835, 'departure_from_lincoln': 835, 'nation': 47, 'band': 403, 'agency': 173, 'trade': 777, 'source': 25, 'comments': 690, 'cause_of_death': 815, 'cemetery_burial': 815, 'relevant_links': 795, 'year_of_birth_uncertain': 0, 'year_of_birth_uncertainty_type': 835, 'arrival_at_lincoln_uncertain': 0, 'arrival_at_lincoln_uncertainty_type': 835, 'departure_from_lincoln_uncertain': 0, 'departure_from_lincoln_uncertainty_type': 835}
+2025-06-18 18:03:34,995 - DataImporter - INFO - Parsed dates: {'year_of_birth': np.int64(813), 'arrival_at_lincoln': np.int64(0), 'departure_from_lincoln': np.int64(0)}
+2025-06-18 18:03:36,029 - DataImporter - ERROR - Error importing to database: column "arrival_at_lincoln" is of type date but expression is of type double precision
+LINE 12: ... 'orent', 'Mary', NULL, 'F', 1874.0, false, NULL, 'NaN'::flo...
+                                                              ^
+HINT:  You will need to rewrite or cast the expression.
+
+2025-06-18 18:03:36,030 - DataImporter - ERROR - Failed to process data\Most_Data.csv: column "arrival_at_lincoln" is of type date but expression is of type double precision
+LINE 12: ... 'orent', 'Mary', NULL, 'F', 1874.0, false, NULL, 'NaN'::flo...
+                                                              ^
+HINT:  You will need to rewrite or cast the expression.
+
+2025-06-18 18:03:36,038 - DataImporter - INFO - Processing file: data\Reworked_Data.csv
+2025-06-18 18:03:36,065 - DataImporter - INFO - Successfully read file with delimiter: |
+2025-06-18 18:03:36,067 - DataImporter - INFO - Validating and cleaning data from data\Reworked_Data.csv
+2025-06-18 18:03:36,079 - DataImporter - INFO - Using column mapping format: reworked
+2025-06-18 18:03:36,081 - DataImporter - INFO - Found 12 matching columns
+2025-06-18 18:03:36,089 - DataImporter - WARNING - Added missing column: census_record_1900
+2025-06-18 18:03:36,093 - DataImporter - WARNING - Added missing column: indian_name
+2025-06-18 18:03:36,098 - DataImporter - WARNING - Added missing column: family_name
+2025-06-18 18:03:36,103 - DataImporter - WARNING - Added missing column: english_given_name
+2025-06-18 18:03:36,108 - DataImporter - WARNING - Added missing column: alias
+2025-06-18 18:03:36,118 - DataImporter - WARNING - Added missing column: sex
+2025-06-18 18:03:36,123 - DataImporter - WARNING - Added missing column: year_of_birth
+2025-06-18 18:03:36,136 - DataImporter - WARNING - Added missing column: arrival_at_lincoln
+2025-06-18 18:03:36,142 - DataImporter - WARNING - Added missing column: departure_from_lincoln
+2025-06-18 18:03:36,150 - DataImporter - WARNING - Added missing column: nation
+2025-06-18 18:03:36,157 - DataImporter - WARNING - Added missing column: band
+2025-06-18 18:03:36,165 - DataImporter - WARNING - Added missing column: agency
+2025-06-18 18:03:36,169 - DataImporter - WARNING - Added missing column: trade
+2025-06-18 18:03:36,179 - DataImporter - WARNING - Added missing column: source
+2025-06-18 18:03:36,188 - DataImporter - WARNING - Added missing column: comments
+2025-06-18 18:03:36,195 - DataImporter - WARNING - Added missing column: cause_of_death
+2025-06-18 18:03:36,199 - DataImporter - WARNING - Added missing column: cemetery_burial
+2025-06-18 18:03:36,203 - DataImporter - WARNING - Added missing column: relevant_links
+2025-06-18 18:03:36,225 - DataImporter - INFO - Successfully validated and cleaned data from data\Reworked_Data.csv
+2025-06-18 18:03:36,230 - DataImporter - INFO - Data quality metrics for data\Reworked_Data.csv:
+2025-06-18 18:03:36,233 - DataImporter - INFO - Total rows: 42
+2025-06-18 18:03:36,239 - DataImporter - INFO - Null counts: {'Unnamed: 0': 40, 'Ptesan': 14, 'Battle': 1, 'Olive': 3, 'Unnamed: 4': 37, 'F': 1, '1868': 4, '1884-01-03; 1883-11-14': 8, 'Unnamed: 8': 37, 'Sioux': 7, 'Brule No. 1': 15, 'Rose Bud': 11, 'Unnamed: 12': 40, 'transfer to Lincoln; Descriptive Statement of Pupils Transferred to Lincoln Institution, 1884; LI, 1884; LI, 1885; LI, 1887': 5, 'At Carlisle 1883-11-14 to 1884. At Carlisle 1883-11-14 to 1884. Specifically named in Sonoma Democrat 9 Aug 1884 article about Ponemah visit; see https://cdnc.ucr.edu/?a=d&d=SD18840809.2.55.26 .': 10, 'Unnamed: 15': 39, 'Unnamed: 16': 39, 'https://carlisleindian.dickinson.edu/sites/default/files/docs-documents/NARA_RG75_91_b0170_00469.pdf': 4, 'census_record_1900': 42, 'indian_name': 42, 'family_name': 42, 'english_given_name': 42, 'alias': 42, 'sex': 42, 'year_of_birth': 42, 'arrival_at_lincoln': 42, 'departure_from_lincoln': 42, 'nation': 42, 'band': 42, 'agency': 42, 'trade': 42, 'source': 42, 'comments': 42, 'cause_of_death': 42, 'cemetery_burial': 42, 'relevant_links': 42, 'year_of_birth_uncertain': 0, 'year_of_birth_uncertainty_type': 42, 'arrival_at_lincoln_uncertain': 0, 'arrival_at_lincoln_uncertainty_type': 42, 'departure_from_lincoln_uncertain': 0, 'departure_from_lincoln_uncertainty_type': 42}
+2025-06-18 18:03:36,241 - DataImporter - INFO - Parsed dates: {'year_of_birth': np.int64(0), 'arrival_at_lincoln': np.int64(0), 'departure_from_lincoln': np.int64(0)}
+2025-06-18 18:03:37,238 - DataImporter - ERROR - Error importing to database: column "arrival_at_lincoln" is of type date but expression is of type double precision
+LINE 12: ... NULL, NULL, NULL, NULL, NULL, NULL, false, NULL, 'NaN'::flo...
+                                                              ^
+HINT:  You will need to rewrite or cast the expression.
+
+2025-06-18 18:03:37,239 - DataImporter - ERROR - Failed to process data\Reworked_Data.csv: column "arrival_at_lincoln" is of type date but expression is of type double precision
+LINE 12: ... NULL, NULL, NULL, NULL, NULL, NULL, false, NULL, 'NaN'::flo...
+                                                              ^
+HINT:  You will need to rewrite or cast the expression.
+
+2025-06-18 18:03:37,245 - DataImporter - INFO - Processing file: data\UTF-8Partial_Data.csv
+2025-06-18 18:03:37,293 - DataImporter - INFO - Successfully read file with delimiter: ,
+2025-06-18 18:03:37,294 - DataImporter - INFO - Validating and cleaning data from data\UTF-8Partial_Data.csv
+2025-06-18 18:03:37,307 - DataImporter - INFO - Using column mapping format: camel
+2025-06-18 18:03:37,309 - DataImporter - INFO - Found 18 matching columns
+2025-06-18 18:03:37,344 - DataImporter - INFO - Successfully validated and cleaned data from data\UTF-8Partial_Data.csv
+2025-06-18 18:03:37,361 - DataImporter - INFO - Data quality metrics for data\UTF-8Partial_Data.csv:
+2025-06-18 18:03:37,362 - DataImporter - INFO - Total rows: 2
+2025-06-18 18:03:37,367 - DataImporter - INFO - Null counts: {'census_record_1900': 2, 'indian_name': 0, 'family_name': 0, 'english_given_name': 0, 'alias': 2, 'sex': 0, 'year_of_birth': 0, 'arrival_at_lincoln': 2, 'departure_from_lincoln': 2, 'nation': 0, 'band': 0, 'agency': 0, 'trade': 2, 'source': 0, 'comments': 2, 'cause_of_death': 2, 'cemetery_burial': 2, 'relevant_links': 2, 'year_of_birth_uncertain': 0, 'year_of_birth_uncertainty_type': 2, 'arrival_at_lincoln_uncertain': 0, 'arrival_at_lincoln_uncertainty_type': 2, 'departure_from_lincoln_uncertain': 0, 'departure_from_lincoln_uncertainty_type': 2}
+2025-06-18 18:03:37,370 - DataImporter - INFO - Parsed dates: {'year_of_birth': np.int64(2), 'arrival_at_lincoln': np.int64(0), 'departure_from_lincoln': np.int64(0)}
+2025-06-18 18:03:38,378 - DataImporter - ERROR - Error importing to database: column "arrival_at_lincoln" is of type date but expression is of type double precision
+LINE 12: ...', 'orent', 'Mary', NULL, 'F', 1874, false, NULL, 'NaN'::flo...
+                                                              ^
+HINT:  You will need to rewrite or cast the expression.
+
+2025-06-18 18:03:38,379 - DataImporter - ERROR - Failed to process data\UTF-8Partial_Data.csv: column "arrival_at_lincoln" is of type date but expression is of type double precision
+LINE 12: ...', 'orent', 'Mary', NULL, 'F', 1874, false, NULL, 'NaN'::flo...
+                                                              ^
+HINT:  You will need to rewrite or cast the expression.
+
+2025-06-20 12:21:33,653 - DataImporter - INFO - Database schema recreated successfully
+2025-06-20 12:21:33,655 - DataImporter - INFO - Processing file: data\Most_Data.csv
+2025-06-20 12:21:33,796 - DataImporter - INFO - Successfully read file with delimiter: |
+2025-06-20 12:21:33,798 - DataImporter - INFO - Validating and cleaning data from data\Most_Data.csv
+2025-06-20 12:21:33,803 - DataImporter - INFO - Using column mapping format: spaced
+2025-06-20 12:21:33,804 - DataImporter - INFO - Found 18 matching columns
+2025-06-20 12:21:33,834 - DataImporter - INFO - Estimated birth year 1881 from age 19
+2025-06-20 12:21:33,837 - DataImporter - INFO - Estimated birth year 1880 from age 20
+2025-06-20 12:21:33,840 - DataImporter - INFO - Estimated birth year 1880 from age 20
+2025-06-20 12:21:33,843 - DataImporter - INFO - Estimated birth year 1879 from age 21
+2025-06-20 12:21:33,848 - DataImporter - INFO - Estimated birth year 1882 from age 18
+2025-06-20 12:21:33,850 - DataImporter - INFO - Estimated birth year 1879 from age 21
+2025-06-20 12:21:33,921 - DataImporter - INFO - Successfully validated and cleaned data from data\Most_Data.csv
+2025-06-20 12:21:33,928 - DataImporter - INFO - Data quality metrics for data\Most_Data.csv:
+2025-06-20 12:21:33,931 - DataImporter - INFO - Total rows: 835
+2025-06-20 12:21:33,935 - DataImporter - INFO - Null counts: {'census_record_1900': 716, 'indian_name': 437, 'family_name': 5, 'english_given_name': 35, 'alias': 808, 'sex': 7, 'year_of_birth': 22, 'arrival_at_lincoln': 835, 'departure_from_lincoln': 835, 'nation': 47, 'band': 403, 'agency': 173, 'trade': 777, 'source': 25, 'comments': 690, 'cause_of_death': 815, 'cemetery_burial': 815, 'relevant_links': 795, 'year_of_birth_uncertain': 0, 'year_of_birth_uncertainty_type': 835, 'arrival_at_lincoln_uncertain': 0, 'arrival_at_lincoln_uncertainty_type': 835, 'departure_from_lincoln_uncertain': 0, 'departure_from_lincoln_uncertainty_type': 835}
+2025-06-20 12:21:33,937 - DataImporter - INFO - Parsed dates: {'year_of_birth': np.int64(813), 'arrival_at_lincoln': np.int64(0), 'departure_from_lincoln': np.int64(0)}
+2025-06-20 12:21:35,014 - DataImporter - ERROR - Error importing to database: column "arrival_at_lincoln" is of type date but expression is of type double precision
+LINE 12: ... 'orent', 'Mary', NULL, 'F', 1874.0, false, NULL, 'NaN'::flo...
+                                                              ^
+HINT:  You will need to rewrite or cast the expression.
+
+2025-06-20 12:21:35,015 - DataImporter - ERROR - Failed to process data\Most_Data.csv: column "arrival_at_lincoln" is of type date but expression is of type double precision
+LINE 12: ... 'orent', 'Mary', NULL, 'F', 1874.0, false, NULL, 'NaN'::flo...
+                                                              ^
+HINT:  You will need to rewrite or cast the expression.
+
+2025-06-20 12:36:52,688 - DataImporter - INFO - Starting import process for: ['data\\Most_Data.csv']
+2025-06-20 12:36:54,232 - DataImporter - INFO - Database schema recreated successfully
+2025-06-20 12:36:54,233 - DataImporter - INFO - Processing file: ['data\\Most_Data.csv']
+2025-06-20 12:36:54,234 - DataImporter - ERROR - Error processing file ['data\\Most_Data.csv']: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'list'
+2025-06-20 12:36:54,234 - DataImporter - ERROR - Import process failed: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'list'
+2025-06-20 12:39:11,779 - DataImporter - INFO - Starting import process for: ['data\\Most_Data.csv']
+2025-06-20 12:39:12,888 - DataImporter - INFO - Database schema recreated successfully
+2025-06-20 12:39:12,889 - DataImporter - INFO - Processing file: ['data\\Most_Data.csv']
+2025-06-20 12:39:12,890 - DataImporter - ERROR - Error processing file ['data\\Most_Data.csv']: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'list'
+2025-06-20 12:39:12,890 - DataImporter - ERROR - Import process failed: argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'list'
+2025-06-20 12:40:24,612 - DataImporter - INFO - Starting import process for: data\Lincoln_student_data.xlsx
+2025-06-20 12:40:25,737 - DataImporter - INFO - Database schema recreated successfully
+2025-06-20 12:40:25,738 - DataImporter - INFO - Processing file: data\Lincoln_student_data.xlsx
+2025-06-20 12:40:26,276 - DataImporter - INFO - Successfully read Excel file: data\Lincoln_student_data.xlsx
+2025-06-20 12:40:26,277 - DataImporter - INFO - Validating and cleaning data from data\Lincoln_student_data.xlsx
+2025-06-20 12:40:26,279 - DataImporter - INFO - Using column mapping format: spaced
+2025-06-20 12:40:26,279 - DataImporter - INFO - Found 16 matching columns
+2025-06-20 12:40:26,281 - DataImporter - WARNING - Added missing column: indian_name
+2025-06-20 12:40:26,281 - DataImporter - WARNING - Added missing column: cemetery_burial
+2025-06-20 12:40:26,285 - DataImporter - INFO - Estimated birth year 1881 from age 19
+2025-06-20 12:40:26,286 - DataImporter - INFO - Estimated birth year 1880 from age 20
+2025-06-20 12:40:26,286 - DataImporter - INFO - Estimated birth year 1880 from age 20
+2025-06-20 12:40:26,287 - DataImporter - INFO - Estimated birth year 1879 from age 21
+2025-06-20 12:40:26,290 - DataImporter - INFO - Estimated birth year 1882 from age 18
+2025-06-20 12:40:26,291 - DataImporter - INFO - Estimated birth year 1879 from age 21
+2025-06-20 12:40:26,307 - DataImporter - INFO - Successfully validated and cleaned data from data\Lincoln_student_data.xlsx
+2025-06-20 12:40:26,309 - DataImporter - INFO - Data quality metrics for data\Lincoln_student_data.xlsx:
+2025-06-20 12:40:26,310 - DataImporter - INFO - Total rows: 837
+2025-06-20 12:40:26,310 - DataImporter - INFO - Null counts: {'census_record_1900': 718, 'Tribal Name': 439, 'family_name': 7, 'english_given_name': 37, 'alias': 810, 'sex': 9, 'year_of_birth': 24, 'arrival_at_lincoln': 0, 'departure_from_lincoln': 0, 'nation': 49, 'band': 405, 'agency': 175, 'trade': 779, 'source': 28, 'comments': 692, 'cause_of_death': 817, 'Cemetery / Burial with protective quotes': 817, 'relevant_links': 797, 'Unnamed: 18': 837, 'Unnamed: 19': 837, 'Unnamed: 20': 837, 'Unnamed: 21': 837, 'Unnamed: 22': 837, 'Unnamed: 23': 837, 'Unnamed: 24': 837, 'Unnamed: 25': 837, 'Unnamed: 26': 837, 'Unnamed: 27': 837, 'Unnamed: 28': 836, 'indian_name': 837, 'cemetery_burial': 837, 'year_of_birth_uncertain': 0, 'year_of_birth_uncertainty_type': 826, 'arrival_at_lincoln_uncertain': 0, 'arrival_at_lincoln_uncertainty_type': 810, 'departure_from_lincoln_uncertain': 0, 'departure_from_lincoln_uncertainty_type': 836}
+2025-06-20 12:40:26,310 - DataImporter - INFO - Parsed dates: {'year_of_birth': np.int64(813), 'arrival_at_lincoln': np.int64(837), 'departure_from_lincoln': np.int64(837)}
+2025-06-20 12:40:27,298 - DataImporter - ERROR - Error importing to database: column "arrival_at_lincoln" is of type date but expression is of type bigint
+LINE 12: ...'orent', 'Mary', NULL, 'F', 1874.0, false, NULL,  -251959680...
+                                                              ^
+HINT:  You will need to rewrite or cast the expression.
+
+2025-06-20 12:40:27,299 - DataImporter - ERROR - Import process failed: column "arrival_at_lincoln" is of type date but expression is of type bigint
+LINE 12: ...'orent', 'Mary', NULL, 'F', 1874.0, false, NULL,  -251959680...
+                                                              ^
+HINT:  You will need to rewrite or cast the expression.
+
+2025-06-20 14:11:45,540 - DataImporter - INFO - Starting import process for: data\Lincoln_student_data.csv
+2025-06-20 14:11:47,097 - DataImporter - INFO - Database schema recreated successfully
+2025-06-20 14:11:47,099 - DataImporter - INFO - Processing file: data\Lincoln_student_data.csv
+2025-06-20 14:11:47,144 - DataImporter - INFO - Successfully read CSV file with delimiter: ,
+2025-06-20 14:11:47,145 - DataImporter - INFO - Validating and cleaning data from data\Lincoln_student_data.csv
+2025-06-20 14:11:47,148 - DataImporter - INFO - Using column mapping format: spaced
+2025-06-20 14:11:47,149 - DataImporter - INFO - Found 16 matching columns
+2025-06-20 14:11:47,151 - DataImporter - WARNING - Added missing column: indian_name
+2025-06-20 14:11:47,153 - DataImporter - WARNING - Added missing column: cemetery_burial
+2025-06-20 14:11:47,161 - DataImporter - INFO - Estimated birth year 1881 from age 19
+2025-06-20 14:11:47,162 - DataImporter - INFO - Estimated birth year 1880 from age 20
+2025-06-20 14:11:47,163 - DataImporter - INFO - Estimated birth year 1880 from age 20
+2025-06-20 14:11:47,164 - DataImporter - INFO - Estimated birth year 1879 from age 21
+2025-06-20 14:11:47,167 - DataImporter - INFO - Estimated birth year 1882 from age 18
+2025-06-20 14:11:47,168 - DataImporter - INFO - Estimated birth year 1879 from age 21
+2025-06-20 14:11:47,194 - DataImporter - INFO - Successfully validated and cleaned data from data\Lincoln_student_data.csv
+2025-06-20 14:11:47,197 - DataImporter - INFO - Data quality metrics for data\Lincoln_student_data.csv:
+2025-06-20 14:11:47,198 - DataImporter - INFO - Total rows: 1612
+2025-06-20 14:11:47,199 - DataImporter - INFO - Null counts: {'census_record_1900': 1493, 'Tribal Name': 1214, 'family_name': 782, 'english_given_name': 812, 'alias': 1585, 'sex': 784, 'year_of_birth': 799, 'arrival_at_lincoln': 0, 'departure_from_lincoln': 0, 'nation': 824, 'band': 1180, 'agency': 950, 'trade': 1554, 'source': 803, 'comments': 1467, 'cause_of_death': 1592, 'Cemetery / Burial with protective quotes': 1592, 'relevant_links': 1572, 'Unnamed: 18': 1612, 'Unnamed: 19': 1612, 'Unnamed: 20': 1612, 'Unnamed: 21': 1612, 'Unnamed: 22': 1612, 'Unnamed: 23': 1612, 'Unnamed: 24': 1612, 'Unnamed: 25': 1612, 'Unnamed: 26': 1612, 'Unnamed: 27': 1612, 'Unnamed: 28': 1611, 'indian_name': 1612, 'cemetery_burial': 1612, 'year_of_birth_uncertain': 0, 'year_of_birth_uncertainty_type': 1601, 'arrival_at_lincoln_uncertain': 0, 'arrival_at_lincoln_uncertainty_type': 1585, 'departure_from_lincoln_uncertain': 0, 'departure_from_lincoln_uncertainty_type': 1611}
+2025-06-20 14:11:47,200 - DataImporter - INFO - Parsed dates: {'year_of_birth': np.int64(813), 'arrival_at_lincoln': np.int64(1612), 'departure_from_lincoln': np.int64(1612)}
+2025-06-20 14:11:48,193 - DataImporter - ERROR - Error importing to database: column "arrival_at_lincoln" is of type date but expression is of type bigint
+LINE 12: ...'orent', 'Mary', NULL, 'F', 1874.0, false, NULL,  -251959680...
+                                                              ^
+HINT:  You will need to rewrite or cast the expression.
+
+2025-06-20 14:11:48,194 - DataImporter - ERROR - Import process failed: column "arrival_at_lincoln" is of type date but expression is of type bigint
+LINE 12: ...'orent', 'Mary', NULL, 'F', 1874.0, false, NULL,  -251959680...
+                                                              ^
+HINT:  You will need to rewrite or cast the expression.
+
+2025-06-20 14:49:09,779 - DataImporter - INFO - Starting import process for: data\Lincoln_student_data.csv
+2025-06-20 14:49:11,331 - DataImporter - INFO - Database schema recreated successfully
+2025-06-20 14:49:11,331 - DataImporter - INFO - Processing file: data\Lincoln_student_data.csv
+2025-06-20 14:49:11,376 - DataImporter - INFO - Successfully read CSV file with delimiter: ,
+2025-06-20 14:49:11,376 - DataImporter - INFO - Validating and cleaning data from data\Lincoln_student_data.csv
+2025-06-20 14:49:11,380 - DataImporter - INFO - Using column mapping format: spaced
+2025-06-20 14:49:11,380 - DataImporter - INFO - Found 18 matching columns
+2025-06-20 14:49:11,426 - DataImporter - INFO - Successfully validated and cleaned data from data\Lincoln_student_data.csv
+2025-06-20 14:49:11,429 - DataImporter - INFO - Data quality metrics for data\Lincoln_student_data.csv:
+2025-06-20 14:49:11,429 - DataImporter - INFO - Total rows: 1612
+2025-06-20 14:49:11,430 - DataImporter - INFO - Null counts: {'census_record_1900': 1493, 'indian_name': 1214, 'family_name': 782, 'english_given_name': 812, 'alias': 1585, 'sex': 784, 'year_of_birth': 799, 'arrival_at_lincoln': 0, 'departure_from_lincoln': 0, 'nation': 824, 'band': 1180, 'agency': 950, 'trade': 1554, 'source': 803, 'comments': 1467, 'cause_of_death': 1592, 'cemetery_burial': 1592, 'relevant_links': 1572, 'year_of_birth_uncertain': 0, 'year_of_birth_uncertainty_type': 1601, 'year_of_birth_original_text': 799, 'arrival_at_lincoln_uncertain': 0, 'arrival_at_lincoln_uncertainty_type': 1585, 'arrival_at_lincoln_original_text': 951, 'departure_from_lincoln_uncertain': 0, 'departure_from_lincoln_uncertainty_type': 1609, 'departure_from_lincoln_original_text': 1519}
+2025-06-20 14:49:11,430 - DataImporter - INFO - Parsed dates: {'year_of_birth': np.int64(813), 'arrival_at_lincoln': np.int64(1612), 'departure_from_lincoln': np.int64(1612)}
+2025-06-20 14:49:12,080 - DataImporter - WARNING - Could not convert arrival_date timestamp -2519596800000000000 to date
+2025-06-20 14:49:12,387 - DataImporter - ERROR - Error importing to database: invalid input syntax for type timestamp: "NaT"
+LINE 13:                                 'NaT'::timestamp, false, NUL...
+                                         ^
+
+2025-06-20 14:49:12,388 - DataImporter - ERROR - Import process failed: invalid input syntax for type timestamp: "NaT"
+LINE 13:                                 'NaT'::timestamp, false, NUL...
+                                         ^
+
+2025-06-20 15:01:59,370 - DataImporter - INFO - Starting import process for: data\Lincoln_student_data.csv
+2025-06-20 15:02:00,968 - DataImporter - INFO - Database schema recreated successfully
+2025-06-20 15:02:00,969 - DataImporter - INFO - Processing file: data\Lincoln_student_data.csv
+2025-06-20 15:02:01,012 - DataImporter - INFO - Successfully read CSV file with delimiter: ,
+2025-06-20 15:02:01,012 - DataImporter - INFO - Validating and cleaning data from data\Lincoln_student_data.csv
+2025-06-20 15:02:01,015 - DataImporter - INFO - Using column mapping format: spaced
+2025-06-20 15:02:01,015 - DataImporter - INFO - Found 18 matching columns
+2025-06-20 15:02:01,045 - DataImporter - INFO - Successfully validated and cleaned data from data\Lincoln_student_data.csv
+2025-06-20 15:02:01,048 - DataImporter - INFO - Data quality metrics for data\Lincoln_student_data.csv:
+2025-06-20 15:02:01,048 - DataImporter - INFO - Total rows: 1612
+2025-06-20 15:02:01,048 - DataImporter - INFO - Null counts: {'census_record_1900': 1493, 'indian_name': 1214, 'family_name': 782, 'english_given_name': 812, 'alias': 1585, 'sex': 784, 'year_of_birth': 799, 'arrival_at_lincoln': 1612, 'departure_from_lincoln': 1612, 'nation': 824, 'band': 1180, 'agency': 950, 'trade': 1554, 'source': 803, 'comments': 1467, 'cause_of_death': 1592, 'cemetery_burial': 1592, 'relevant_links': 1572, 'year_of_birth_uncertain': 0, 'year_of_birth_uncertainty_type': 1601, 'year_of_birth_original_text': 799, 'arrival_at_lincoln_uncertain': 0, 'arrival_at_lincoln_uncertainty_type': 1585, 'arrival_at_lincoln_original_text': 951, 'departure_from_lincoln_uncertain': 0, 'departure_from_lincoln_uncertainty_type': 1609, 'departure_from_lincoln_original_text': 1519}
+2025-06-20 15:02:01,049 - DataImporter - INFO - Parsed dates: {'year_of_birth': np.int64(813), 'arrival_at_lincoln': np.int64(0), 'departure_from_lincoln': np.int64(0)}
+2025-06-20 15:02:03,091 - DataImporter - ERROR - Error importing to database: integer out of range
+
+2025-06-20 15:02:03,091 - DataImporter - ERROR - Import process failed: integer out of range
+
+2025-06-20 15:04:49,176 - DataImporter - WARNING - Could not parse year: 1799
+2025-06-20 15:04:49,176 - DataImporter - WARNING - Could not parse year: 1799
+2025-06-20 15:04:49,176 - DataImporter - WARNING - Could not parse year: 1799
+2025-06-20 15:04:49,185 - DataImporter - WARNING - Could not parse year: 2001
+2025-06-20 15:04:49,185 - DataImporter - WARNING - Could not parse year: 2001
+2025-06-20 15:04:49,185 - DataImporter - WARNING - Could not parse year: 2001
+2025-06-20 15:04:49,188 - DataImporter - WARNING - Could not parse year: 9999
+2025-06-20 15:04:49,188 - DataImporter - WARNING - Could not parse year: 9999
+2025-06-20 15:04:49,188 - DataImporter - WARNING - Could not parse year: 9999
+2025-06-20 15:04:49,213 - DataImporter - WARNING - Error parsing year '1890.0': invalid literal for int() with base 10: '1890.0'
+2025-06-20 15:04:49,213 - DataImporter - WARNING - Error parsing year '1890.0': invalid literal for int() with base 10: '1890.0'
+2025-06-20 15:04:49,213 - DataImporter - WARNING - Error parsing year '1890.0': invalid literal for int() with base 10: '1890.0'
+2025-06-20 15:04:49,213 - DataImporter - WARNING - Error parsing year '1890.0': invalid literal for int() with base 10: '1890.0'
+2025-06-20 15:04:49,216 - DataImporter - WARNING - Could not parse year: 1890.0
+2025-06-20 15:04:49,216 - DataImporter - WARNING - Could not parse year: 1890.0
+2025-06-20 15:04:49,216 - DataImporter - WARNING - Could not parse year: 1890.0
+2025-06-20 15:04:49,216 - DataImporter - WARNING - Could not parse year: 1890.0
+2025-06-20 15:12:19,461 - DataImporter - INFO - Starting import process for: data\Lincoln_student_data.csv
+2025-06-20 15:12:21,125 - DataImporter - INFO - Database schema recreated successfully
+2025-06-20 15:12:21,132 - DataImporter - INFO - Processing file: data\Lincoln_student_data.csv
+2025-06-20 15:12:21,445 - DataImporter - INFO - Successfully read CSV file with delimiter: ,
+2025-06-20 15:12:21,448 - DataImporter - INFO - Validating and cleaning data from data\Lincoln_student_data.csv
+2025-06-20 15:12:21,470 - DataImporter - INFO - Using column mapping format: spaced
+2025-06-20 15:12:21,474 - DataImporter - INFO - Found 18 matching columns
+2025-06-20 15:12:21,685 - DataImporter - INFO - Successfully validated and cleaned data from data\Lincoln_student_data.csv
+2025-06-20 15:12:21,697 - DataImporter - INFO - Data quality metrics for data\Lincoln_student_data.csv:
+2025-06-20 15:12:21,699 - DataImporter - INFO - Total rows: 1612
+2025-06-20 15:12:21,700 - DataImporter - INFO - Null counts: {'census_record_1900': 1493, 'indian_name': 1214, 'family_name': 782, 'english_given_name': 812, 'alias': 1585, 'sex': 784, 'year_of_birth': 799, 'arrival_at_lincoln': 1612, 'departure_from_lincoln': 1612, 'nation': 824, 'band': 1180, 'agency': 950, 'trade': 1554, 'source': 803, 'comments': 1467, 'cause_of_death': 1592, 'cemetery_burial': 1592, 'relevant_links': 1572, 'year_of_birth_uncertain': 0, 'year_of_birth_uncertainty_type': 1601, 'year_of_birth_original_text': 799, 'arrival_at_lincoln_uncertain': 0, 'arrival_at_lincoln_uncertainty_type': 1585, 'arrival_at_lincoln_original_text': 951, 'departure_from_lincoln_uncertain': 0, 'departure_from_lincoln_uncertainty_type': 1609, 'departure_from_lincoln_original_text': 1519}
+2025-06-20 15:12:21,701 - DataImporter - INFO - Parsed dates: {'year_of_birth': np.int64(813), 'arrival_at_lincoln': np.int64(0), 'departure_from_lincoln': np.int64(0)}
+2025-06-20 15:12:23,829 - DataImporter - ERROR - Error importing to database: integer out of range
+
+2025-06-20 15:12:23,831 - DataImporter - ERROR - Import process failed: integer out of range
+
+2025-06-20 15:17:56,749 - DataImporter - INFO - Starting import process for: data\Lincoln_student_data.csv
+2025-06-20 15:17:58,531 - DataImporter - INFO - Database schema recreated successfully
+2025-06-20 15:17:58,535 - DataImporter - INFO - Processing file: data\Lincoln_student_data.csv
+2025-06-20 15:17:58,789 - DataImporter - INFO - Successfully read CSV file with delimiter: ,
+2025-06-20 15:17:58,806 - DataImporter - INFO - Validating and cleaning data from data\Lincoln_student_data.csv
+2025-06-20 15:17:58,924 - DataImporter - INFO - Using column mapping format: spaced
+2025-06-20 15:17:58,937 - DataImporter - INFO - Found 18 matching columns
+2025-06-20 15:17:59,677 - DataImporter - INFO - Successfully validated and cleaned data from data\Lincoln_student_data.csv
+2025-06-20 15:17:59,696 - DataImporter - INFO - Data quality metrics for data\Lincoln_student_data.csv:
+2025-06-20 15:17:59,706 - DataImporter - INFO - Total rows: 1612
+2025-06-20 15:17:59,725 - DataImporter - INFO - Null counts: {'census_record_1900': 1493, 'indian_name': 1214, 'family_name': 782, 'english_given_name': 812, 'alias': 1585, 'sex': 784, 'year_of_birth': 799, 'arrival_at_lincoln': 1612, 'departure_from_lincoln': 1612, 'nation': 824, 'band': 1180, 'agency': 950, 'trade': 1554, 'source': 803, 'comments': 1467, 'cause_of_death': 1592, 'cemetery_burial': 1592, 'relevant_links': 1572, 'year_of_birth_uncertain': 0, 'year_of_birth_uncertainty_type': 1601, 'year_of_birth_original_text': 799, 'arrival_at_lincoln_uncertain': 0, 'arrival_at_lincoln_uncertainty_type': 1585, 'arrival_at_lincoln_original_text': 951, 'departure_from_lincoln_uncertain': 0, 'departure_from_lincoln_uncertainty_type': 1609, 'departure_from_lincoln_original_text': 1519}
+2025-06-20 15:17:59,740 - DataImporter - INFO - Parsed dates: {'year_of_birth': np.int64(813), 'arrival_at_lincoln': np.int64(0), 'departure_from_lincoln': np.int64(0)}
+2025-06-20 15:18:09,038 - DataImporter - INFO - Starting import process for: data\Lincoln_student_data.csv
+2025-06-20 15:18:59,181 - DataImporter - ERROR - Error inserting row 521: value too long for type character varying(100)
+
+2025-06-20 15:18:59,184 - DataImporter - ERROR - Row data: {'census_record_1900': None, 'indian_name': 'Names from this page now added httpscarlisleindian.dickinson.edusitesdefaultfilesdocs-documentsNARA_RG75_91_b0838_10866.pdf p. 11 11 names.', 'family_name': None, 'english_given_name': None, 'alias': None, 'sex': None, 'year_of_birth': nan, 'arrival_at_lincoln': nan, 'departure_from_lincoln': nan, 'nation': None, 'band': None, 'agency': None, 'trade': None, 'source': None, 'comments': None, 'cause_of_death': None, 'cemetery_burial': None, 'relevant_links': None, 'year_of_birth_uncertain': False, 'year_of_birth_uncertainty_type': None, 'year_of_birth_original_text': None, 'arrival_at_lincoln_uncertain': False, 'arrival_at_lincoln_uncertainty_type': None, 'arrival_at_lincoln_original_text': None, 'departure_from_lincoln_uncertain': False, 'departure_from_lincoln_uncertainty_type': None, 'departure_from_lincoln_original_text': None}
+2025-06-20 15:18:59,297 - DataImporter - ERROR - Error importing to database: value too long for type character varying(100)
+
+2025-06-20 15:18:59,300 - DataImporter - ERROR - Import process failed: value too long for type character varying(100)
+
+2025-06-20 15:18:59,418 - DataImporter - INFO - Database schema recreated successfully
+2025-06-20 15:18:59,423 - DataImporter - INFO - Processing file: data\Lincoln_student_data.csv
+2025-06-20 15:18:59,587 - DataImporter - INFO - Successfully read CSV file with delimiter: ,
+2025-06-20 15:18:59,604 - DataImporter - INFO - Validating and cleaning data from data\Lincoln_student_data.csv
+2025-06-20 15:18:59,679 - DataImporter - INFO - Using column mapping format: spaced
+2025-06-20 15:18:59,694 - DataImporter - INFO - Found 18 matching columns
+2025-06-20 15:19:00,315 - DataImporter - INFO - Successfully validated and cleaned data from data\Lincoln_student_data.csv
+2025-06-20 15:19:00,348 - DataImporter - INFO - Data quality metrics for data\Lincoln_student_data.csv:
+2025-06-20 15:19:00,354 - DataImporter - INFO - Total rows: 1612
+2025-06-20 15:19:00,357 - DataImporter - INFO - Null counts: {'census_record_1900': 1493, 'indian_name': 1214, 'family_name': 782, 'english_given_name': 812, 'alias': 1585, 'sex': 784, 'year_of_birth': 799, 'arrival_at_lincoln': 1612, 'departure_from_lincoln': 1612, 'nation': 824, 'band': 1180, 'agency': 950, 'trade': 1554, 'source': 803, 'comments': 1467, 'cause_of_death': 1592, 'cemetery_burial': 1592, 'relevant_links': 1572, 'year_of_birth_uncertain': 0, 'year_of_birth_uncertainty_type': 1601, 'year_of_birth_original_text': 799, 'arrival_at_lincoln_uncertain': 0, 'arrival_at_lincoln_uncertainty_type': 1585, 'arrival_at_lincoln_original_text': 951, 'departure_from_lincoln_uncertain': 0, 'departure_from_lincoln_uncertainty_type': 1609, 'departure_from_lincoln_original_text': 1519}
+2025-06-20 15:19:00,362 - DataImporter - INFO - Parsed dates: {'year_of_birth': np.int64(813), 'arrival_at_lincoln': np.int64(0), 'departure_from_lincoln': np.int64(0)}
+2025-06-20 15:19:58,327 - DataImporter - ERROR - Error inserting row 521: value too long for type character varying(100)
+
+2025-06-20 15:19:58,331 - DataImporter - ERROR - Row data: {'census_record_1900': None, 'indian_name': 'Names from this page now added httpscarlisleindian.dickinson.edusitesdefaultfilesdocs-documentsNARA_RG75_91_b0838_10866.pdf p. 11 11 names.', 'family_name': None, 'english_given_name': None, 'alias': None, 'sex': None, 'year_of_birth': nan, 'arrival_at_lincoln': nan, 'departure_from_lincoln': nan, 'nation': None, 'band': None, 'agency': None, 'trade': None, 'source': None, 'comments': None, 'cause_of_death': None, 'cemetery_burial': None, 'relevant_links': None, 'year_of_birth_uncertain': False, 'year_of_birth_uncertainty_type': None, 'year_of_birth_original_text': None, 'arrival_at_lincoln_uncertain': False, 'arrival_at_lincoln_uncertainty_type': None, 'arrival_at_lincoln_original_text': None, 'departure_from_lincoln_uncertain': False, 'departure_from_lincoln_uncertainty_type': None, 'departure_from_lincoln_original_text': None}
+2025-06-20 15:19:58,444 - DataImporter - ERROR - Error importing to database: value too long for type character varying(100)
+
+2025-06-20 15:19:58,448 - DataImporter - ERROR - Import process failed: value too long for type character varying(100)
+
+2025-06-20 15:20:13,932 - DataImporter - INFO - Starting import process for: data\Lincoln_student_data.csv
+2025-06-20 15:20:15,212 - DataImporter - INFO - Database schema recreated successfully
+2025-06-20 15:20:15,221 - DataImporter - INFO - Processing file: data\Lincoln_student_data.csv
+2025-06-20 15:20:15,439 - DataImporter - INFO - Successfully read CSV file with delimiter: ,
+2025-06-20 15:20:15,444 - DataImporter - INFO - Validating and cleaning data from data\Lincoln_student_data.csv
+2025-06-20 15:20:15,547 - DataImporter - INFO - Using column mapping format: spaced
+2025-06-20 15:20:15,552 - DataImporter - INFO - Found 18 matching columns
+2025-06-20 15:20:16,353 - DataImporter - INFO - Successfully validated and cleaned data from data\Lincoln_student_data.csv
+2025-06-20 15:20:16,406 - DataImporter - INFO - Data quality metrics for data\Lincoln_student_data.csv:
+2025-06-20 15:20:16,416 - DataImporter - INFO - Total rows: 1612
+2025-06-20 15:20:16,437 - DataImporter - INFO - Null counts: {'census_record_1900': 1493, 'indian_name': 1214, 'family_name': 782, 'english_given_name': 812, 'alias': 1585, 'sex': 784, 'year_of_birth': 799, 'arrival_at_lincoln': 1612, 'departure_from_lincoln': 1612, 'nation': 824, 'band': 1180, 'agency': 950, 'trade': 1554, 'source': 803, 'comments': 1467, 'cause_of_death': 1592, 'cemetery_burial': 1592, 'relevant_links': 1572, 'year_of_birth_uncertain': 0, 'year_of_birth_uncertainty_type': 1601, 'year_of_birth_original_text': 799, 'arrival_at_lincoln_uncertain': 0, 'arrival_at_lincoln_uncertainty_type': 1585, 'arrival_at_lincoln_original_text': 951, 'departure_from_lincoln_uncertain': 0, 'departure_from_lincoln_uncertainty_type': 1609, 'departure_from_lincoln_original_text': 1519}
+2025-06-20 15:20:16,441 - DataImporter - INFO - Parsed dates: {'year_of_birth': np.int64(813), 'arrival_at_lincoln': np.int64(0), 'departure_from_lincoln': np.int64(0)}
+2025-06-20 15:32:57,751 - DataImporter - INFO - Starting import process for: data\Lincoln_student_data.csv
+2025-06-20 15:32:59,347 - DataImporter - INFO - Database schema recreated successfully
+2025-06-20 15:32:59,349 - DataImporter - INFO - Processing file: data\Lincoln_student_data.csv
+2025-06-20 15:32:59,408 - DataImporter - INFO - Successfully read CSV file with delimiter: ,
+2025-06-20 15:32:59,409 - DataImporter - INFO - Validating and cleaning data from data\Lincoln_student_data.csv
+2025-06-20 15:32:59,415 - DataImporter - INFO - Using column mapping format: spaced
+2025-06-20 15:32:59,415 - DataImporter - INFO - Found 18 matching columns
+2025-06-20 15:32:59,449 - DataImporter - INFO - Successfully validated and cleaned data from data\Lincoln_student_data.csv
+2025-06-20 15:32:59,452 - DataImporter - INFO - Data quality metrics for data\Lincoln_student_data.csv:
+2025-06-20 15:32:59,453 - DataImporter - INFO - Total rows: 1612
+2025-06-20 15:32:59,453 - DataImporter - INFO - Null counts: {'census_record_1900': 1493, 'indian_name': 1214, 'family_name': 782, 'english_given_name': 812, 'alias': 1585, 'sex': 784, 'year_of_birth': 799, 'arrival_at_lincoln': 1612, 'departure_from_lincoln': 1612, 'nation': 824, 'band': 1180, 'agency': 950, 'trade': 1554, 'source': 803, 'comments': 1467, 'cause_of_death': 1592, 'cemetery_burial': 1592, 'relevant_links': 1572, 'year_of_birth_uncertain': 0, 'year_of_birth_uncertainty_type': 1601, 'year_of_birth_original_text': 799, 'arrival_at_lincoln_uncertain': 0, 'arrival_at_lincoln_uncertainty_type': 1585, 'arrival_at_lincoln_original_text': 951, 'departure_from_lincoln_uncertain': 0, 'departure_from_lincoln_uncertainty_type': 1609, 'departure_from_lincoln_original_text': 1519}
+2025-06-20 15:32:59,453 - DataImporter - INFO - Parsed dates: {'year_of_birth': np.int64(813), 'arrival_at_lincoln': np.int64(0), 'departure_from_lincoln': np.int64(0)}
+2025-06-20 15:35:46,174 - DataImporter - INFO - Successfully imported 1612 records
+2025-06-20 15:35:46,175 - DataImporter - INFO - Import process completed successfully
