@@ -1,4 +1,4 @@
-"""
+so"""
 Data importer module for importing Lincoln student data from Excel file into Neon Postgres database.
 """
 
@@ -1062,6 +1062,183 @@ class DataImporter:
                     
         except Exception as e:
             self.logger.error(f"Import process failed: {str(e)}")
+            raise
+
+    def create_orphans_database_schema(self) -> None:
+        """Create the civil war orphans database schema if it doesn't exist."""
+        try:
+            with psycopg2.connect(self.db_connection_string) as conn:
+                with conn.cursor() as cur:
+                    # Drop existing table and indexes
+                    cur.execute("""
+                        DROP TABLE IF EXISTS civil_war_orphans CASCADE;
+                    """)
+                    
+                    # Create table with all required columns
+                    cur.execute("""
+                        CREATE TABLE civil_war_orphans (
+                            id SERIAL PRIMARY KEY,
+                            family_name TEXT,
+                            given_name TEXT,
+                            aliases TEXT,
+                            birth_date DATETIME,
+                            arrival DATETIME,
+                            departure DATETIME,
+                            scholarships TEXT,
+                            assignments TEXT,
+                            situation_1878 TEXT,
+                            assignment_scholarship_year TEXT,
+                            references TEXT,
+                            comments TEXT,
+                            birth_date_original_text TEXT,
+                            birth_date_uncertain BOOLEAN DEFAULT FALSE,
+                            arrival_original_text TEXT,
+                            arrival_uncertain BOOLEAN DEFAULT FALSE,
+                            arrival_at_lincoln DATETIME,
+                            departure_original_text TEXT,
+                            departure_uncertain BOOLEAN DEFAULT FALSE,
+                            departure_at_lincoln DATETIME,
+                            departure_from_lincoln DATETIME,
+                            created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+                            updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+                        );
+                        
+                        CREATE INDEX idx_civil_war_orphans_family_name ON civil_war_orphans(family_name);
+                        CREATE INDEX idx_civil_war_orphans_given_name ON civil_war_orphans(given_name);
+                        CREATE INDEX idx_civil_war_orphans_birth_date ON civil_war_orphans(birth_date);
+                        CREATE INDEX idx_civil_war_orphans_arrival ON civil_war_orphans(arrival);
+                        CREATE INDEX idx_civil_war_orphans_departure ON civil_war_orphans(departure);
+                    """)
+                conn.commit()
+                self.logger.info("Civil war orphans database schema created successfully")
+                
+        except Exception as e:
+            self.logger.error(f"Error creating civil war orphans database schema: {str(e)}")
+            raise
+
+    def process_orphans_file(self, file_path: str) -> pd.DataFrame:
+        """Process the orphans CSV file and return a cleaned DataFrame."""
+        try:
+            # Detect file encoding
+            encoding = self.detect_encoding(file_path)
+            self.logger.info(f"Detected encoding: {encoding}")
+            
+            # Read the CSV file
+            df = pd.read_csv(file_path, encoding=encoding)
+            self.logger.info(f"Loaded {len(df)} records from {file_path}")
+            
+            # Clean column names
+            df.columns = df.columns.str.strip().str.lower().str.replace(' ', '_').str.replace('/', '_')
+            
+            # Handle the specific column name from the SQL schema
+            if 'situation,_1878' in df.columns:
+                df = df.rename(columns={'situation,_1878': 'situation_1878'})
+            
+            if 'assignment_/_scholarship_year' in df.columns:
+                df = df.rename(columns={'assignment_/_scholarship_year': 'assignment_scholarship_year'})
+            
+            # Process date columns
+            date_columns = ['birth_date', 'arrival', 'departure', 'arrival_at_lincoln', 'departure_at_lincoln', 'departure_from_lincoln']
+            
+            for col in date_columns:
+                if col in df.columns:
+                    df[f'{col}_original_text'] = df[col].astype(str)
+                    df[f'{col}_uncertain'] = False
+                    
+                    # Clean dates
+                    cleaned_dates = []
+                    uncertainties = []
+                    
+                    for date_str in df[col]:
+                        cleaned_date, is_uncertain, uncertainty_type = self.clean_date(date_str)
+                        cleaned_dates.append(cleaned_date)
+                        uncertainties.append(is_uncertain)
+                    
+                    df[col] = cleaned_dates
+                    df[f'{col}_uncertain'] = uncertainties
+            
+            # Ensure all required columns exist
+            required_columns = [
+                'family_name', 'given_name', 'aliases', 'birth_date', 'arrival', 'departure',
+                'scholarships', 'assignments', 'situation_1878', 'assignment_scholarship_year',
+                'references', 'comments', 'birth_date_original_text', 'birth_date_uncertain',
+                'arrival_original_text', 'arrival_uncertain', 'arrival_at_lincoln',
+                'departure_original_text', 'departure_uncertain', 'departure_at_lincoln',
+                'departure_from_lincoln'
+            ]
+            
+            for col in required_columns:
+                if col not in df.columns:
+                    df[col] = None
+            
+            # Convert text columns to string type
+            text_columns = ['family_name', 'given_name', 'aliases', 'scholarships', 'assignments', 
+                           'situation_1878', 'assignment_scholarship_year', 'references', 'comments',
+                           'birth_date_original_text', 'arrival_original_text', 'departure_original_text']
+            
+            for col in text_columns:
+                if col in df.columns:
+                    df[col] = df[col].astype(str).replace('nan', None)
+            
+            self.logger.info(f"Processed {len(df)} records successfully")
+            return df
+            
+        except Exception as e:
+            self.logger.error(f"Error processing orphans file: {str(e)}")
+            raise
+
+    def import_orphans_to_db(self, df: pd.DataFrame) -> None:
+        """Import civil war orphans data to the database."""
+        try:
+            with psycopg2.connect(self.db_connection_string) as conn:
+                with conn.cursor() as cur:
+                    # Prepare data for insertion
+                    for index, row in df.iterrows():
+                        cur.execute("""
+                            INSERT INTO civil_war_orphans (
+                                family_name, given_name, aliases, birth_date, arrival, departure,
+                                scholarships, assignments, situation_1878, assignment_scholarship_year,
+                                references, comments, birth_date_original_text, birth_date_uncertain,
+                                arrival_original_text, arrival_uncertain, arrival_at_lincoln,
+                                departure_original_text, departure_uncertain, departure_at_lincoln,
+                                departure_from_lincoln
+                            ) VALUES (
+                                %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s
+                            )
+                        """, (
+                            row.get('family_name'), row.get('given_name'), row.get('aliases'),
+                            row.get('birth_date'), row.get('arrival'), row.get('departure'),
+                            row.get('scholarships'), row.get('assignments'), row.get('situation_1878'),
+                            row.get('assignment_scholarship_year'), row.get('references'), row.get('comments'),
+                            row.get('birth_date_original_text'), row.get('birth_date_uncertain'),
+                            row.get('arrival_original_text'), row.get('arrival_uncertain'), row.get('arrival_at_lincoln'),
+                            row.get('departure_original_text'), row.get('departure_uncertain'), row.get('departure_at_lincoln'),
+                            row.get('departure_from_lincoln')
+                        ))
+                    
+                conn.commit()
+                self.logger.info(f"Successfully imported {len(df)} civil war orphans records")
+                
+        except Exception as e:
+            self.logger.error(f"Error importing civil war orphans to database: {str(e)}")
+            raise
+
+    def run_orphans_import(self, file_path: str) -> None:
+        """Run the import process for the civil war orphans data file."""
+        try:
+            self.logger.info(f"Starting civil war orphans import process for: {file_path}")
+            
+            # Create civil war orphans database schema
+            self.create_orphans_database_schema()
+            
+            # Process the file
+            df = self.process_orphans_file(file_path)
+            self.import_orphans_to_db(df)
+            
+            self.logger.info("Civil war orphans import process completed successfully")
+                    
+        except Exception as e:
+            self.logger.error(f"Civil war orphans import process failed: {str(e)}")
             raise
 
 def main():
