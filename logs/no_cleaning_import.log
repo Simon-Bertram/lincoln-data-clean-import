@@ -1,0 +1,14 @@
+2025-09-05 15:37:03,500 - INFO - Configuration validated successfully
+2025-09-05 15:37:03,539 - INFO - Starting no-cleaning import of data/cleaned_orphans_sept1.csv
+2025-09-05 15:37:03,580 - INFO - Reading file: data/cleaned_orphans_sept1.csv
+2025-09-05 15:37:03,744 - INFO - Loaded 554 records from CSV
+2025-09-05 15:37:03,767 - INFO - Columns found: ['family_name', 'given_name', 'aliases', 'birth_date', 'arrival', 'departure', 'scholarships', 'assignments', 'situation,_1878', 'assignment_/_scholarship_year', 'references', 'comments', 'birth_date_original_text', 'birth_date_uncertain', 'birth_date.1', 'arrival_original_text', 'arrival_uncertain', 'arrival_at_lincoln', 'departure_original_text', 'departure_uncertain', 'departure_at_lincoln', 'departure_from_lincoln']
+2025-09-05 15:37:03,772 - INFO - Connecting to database...
+2025-09-05 15:37:05,642 - ERROR - Import failed: syntax error at or near "references"
+LINE 14:         references TEXT,
+                 ^
+
+2025-09-05 15:37:05,644 - ERROR - Import process failed: syntax error at or near "references"
+LINE 14:         references TEXT,
+                 ^
+

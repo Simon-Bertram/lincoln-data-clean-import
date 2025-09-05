@@ -522,3 +522,9 @@ LINE 13:                                 'NaT'::timestamp, false, NUL...
 2025-06-20 15:32:59,453 - DataImporter - INFO - Parsed dates: {'year_of_birth': np.int64(813), 'arrival_at_lincoln': np.int64(0), 'departure_from_lincoln': np.int64(0)}
 2025-06-20 15:35:46,174 - DataImporter - INFO - Successfully imported 1612 records
 2025-06-20 15:35:46,175 - DataImporter - INFO - Import process completed successfully
+2025-09-05 15:18:11,336 - LincolnImporter - INFO - Starting Lincoln data import from: test_file.csv
+2025-09-05 15:18:11,351 - LincolnImporter - ERROR - File not found: test_file.csv
+2025-09-05 15:18:11,357 - LincolnImporter - ERROR - Lincoln data import failed: File not found or invalid: test_file.csv
+2025-09-05 15:31:14,858 - LincolnImporter - INFO - Starting Lincoln data import from: test_file.csv
+2025-09-05 15:31:14,863 - LincolnImporter - ERROR - File not found: test_file.csv
+2025-09-05 15:31:14,865 - LincolnImporter - ERROR - Lincoln data import failed: File not found or invalid: test_file.csv
