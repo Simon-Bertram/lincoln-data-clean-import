@@ -528,3 +528,6 @@ LINE 13:                                 'NaT'::timestamp, false, NUL...
 2025-09-05 15:31:14,858 - LincolnImporter - INFO - Starting Lincoln data import from: test_file.csv
 2025-09-05 15:31:14,863 - LincolnImporter - ERROR - File not found: test_file.csv
 2025-09-05 15:31:14,865 - LincolnImporter - ERROR - Lincoln data import failed: File not found or invalid: test_file.csv
+2025-09-05 16:40:41,291 - LincolnImporter - INFO - Starting Lincoln data import from: test_file.csv
+2025-09-05 16:40:41,291 - LincolnImporter - ERROR - File not found: test_file.csv
+2025-09-05 16:40:41,291 - LincolnImporter - ERROR - Lincoln data import failed: File not found or invalid: test_file.csv
